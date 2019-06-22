@@ -1,9 +1,8 @@
 package com.macaron.toytrip.controller;
 
-import com.macaron.toytrip.dto.AirPlaneInfo;
-import com.macaron.toytrip.dto.ApiResult;
+import com.macaron.toytrip.domain.dto.AirPlaneInfo;
+import com.macaron.toytrip.domain.dto.ApiResult;
 import com.macaron.toytrip.service.AirPlaneService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

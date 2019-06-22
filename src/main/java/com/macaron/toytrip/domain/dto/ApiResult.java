@@ -1,4 +1,4 @@
-package com.macaron.toytrip.dto;
+package com.macaron.toytrip.domain.dto;
 
 import java.time.OffsetDateTime;
 

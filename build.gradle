@@ -20,4 +20,8 @@ dependencies {
     implementation "io.vavr:vavr:0.9.3"
     runtimeOnly 'com.h2database:h2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+
+    compileOnly "org.projectlombok:lombok"
+    annotationProcessor 'org.projectlombok:lombok'
 }
