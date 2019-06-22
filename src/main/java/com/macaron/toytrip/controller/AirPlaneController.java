@@ -17,8 +17,11 @@ import java.util.List;
 @RequestMapping("/air")
 public class AirPlaneController {
 
-    @Autowired
-    AirPlaneService apService;
+    private AirPlaneService apService;
+
+    public AirPlaneController(AirPlaneService apService) {
+        this.apService = apService;
+    }
 
     @GetMapping("/data")
     public ResponseEntity<ApiResult<List<AirPlaneInfo>>> res() {
@@ -28,5 +31,6 @@ public class AirPlaneController {
         apires.setTime(OffsetDateTime.now());
 
         return ResponseEntity.ok(apires);
+
     }
 }

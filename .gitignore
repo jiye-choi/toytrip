@@ -31,3 +31,5 @@ gradle/wrapper/gradle-wrapper.properties
 .vscode/
 
 /http
+
+/src/test
