@@ -36,4 +36,4 @@ gradle/wrapper/gradle-wrapper.properties
 
 /package-lock.json
 
-/resources/application.yml
+resources/application.yml
