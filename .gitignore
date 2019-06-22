@@ -35,3 +35,5 @@ gradle/wrapper/gradle-wrapper.properties
 /src/test
 
 /package-lock.json
+
+/resources/application.yml

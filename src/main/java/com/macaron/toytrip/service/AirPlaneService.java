@@ -1,6 +1,6 @@
 package com.macaron.toytrip.service;
 
-import com.macaron.toytrip.dto.AirPlaneInfo;
+import com.macaron.toytrip.domain.dto.AirPlaneInfo;
 import org.springframework.stereotype.Service;
 
 import java.time.OffsetDateTime;
