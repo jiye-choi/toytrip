@@ -33,3 +33,5 @@ gradle/wrapper/gradle-wrapper.properties
 /http
 
 /src/test
+
+/package-lock.json
